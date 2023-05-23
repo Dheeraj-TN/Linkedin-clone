@@ -1,0 +1,52 @@
+.signUp {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+
+.signUp>img {
+    object-fit: contain;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signUp>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signUp>form>input {
+    width: 350px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.signUp>form>button {
+    width: 360px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2977c9;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    transition: transform 100ms ease-in;
+}
+
+.signUp>form>button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.login {
+    color: #0177b7;
+    cursor: pointer;
+}

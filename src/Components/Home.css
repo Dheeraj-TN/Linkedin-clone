@@ -1,0 +1,32 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__body {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    margin-top: 35px;
+
+}
+
+@media(max-width:768px) {
+    .home {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app__body {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+}

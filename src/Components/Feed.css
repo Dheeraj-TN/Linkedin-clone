@@ -1,0 +1,103 @@
+.feed {
+    flex: 0.4;
+    margin-top: 70px;
+}
+
+.feed__input {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.feed__inputTop {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.feed__inputTop>input {
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    outline: none;
+    outline-width: 0;
+}
+
+.feed__inputTop>button {
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 30px;
+    /* display: none; */
+    cursor: pointer;
+}
+
+.feed__inputOption {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feed__inputTop>button {
+    border: none;
+    background-color: #2977c9;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.feed__inputOption1 {
+    padding: 10px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.feed__inputOption1>.event__button {
+    color: gray;
+    margin-left: 5px;
+    position: relative;
+}
+
+.feed__inputOption1:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.feed__inputOption1>p {
+    color: gray;
+    margin-left: 5px;
+}
+
+.feed__inputOption1>label {
+    color: gray;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.feed__inputOption1>input {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .feed {
+        width: 100%;
+    }
+
+    .uploadMedia__option {
+        display: none;
+    }
+
+    .feed__inputOption1>.MuiSvgIcon-root {
+        font-size: 18px;
+    }
+
+    .feed__inputOption1>label {
+        font-size: 12px;
+    }
+
+    .feed__inputOption1>button {
+        font-size: 12px;
+    }
+}

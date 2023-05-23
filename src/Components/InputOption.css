@@ -1,0 +1,26 @@
+.inputOptions {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+.inputOptions:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.inputOptions>p {
+    margin-left: 5px;
+    color: gray;
+}
+
+@media(max-width:768px) {
+    .inputOptions>.MuiSvgIcon-root {
+        font-size: 18px;
+    }
+
+    .inputOptions>p {
+        font-size: 12px;
+    }
+}
