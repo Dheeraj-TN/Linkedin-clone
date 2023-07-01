@@ -13,7 +13,6 @@ function Login() {
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
   const passwordformat = /^[a-zA-Z0-9!@#$%^&*]{8,16}$/;
   const navigate = useNavigate();
-
   const [Errormsg, setErrorMsg] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
